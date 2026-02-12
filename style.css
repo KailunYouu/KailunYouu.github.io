@@ -35,3 +35,7 @@ table{
 body{
     background-color: lime;
 }
+
+h3{
+    text-decoration: underline;
+}
