@@ -58,7 +58,7 @@ h3{
     text-decoration: underline;
 }
 
-@media(min-width:780px){
+@media(min-width:510px){
     #navBar{
         flex-direction: row;
     }
@@ -67,7 +67,7 @@ h3{
     }
 }
 
-@media(max-width:768px){
+@media(max-width:500px){
     #navBar{
         flex-direction: column;
     }
