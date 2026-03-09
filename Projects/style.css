@@ -1,0 +1,80 @@
+#projectBox{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    background-color: aliceblue;
+    height:auto;
+    width:auto;
+    padding:10px;
+    justify-content: space-between;
+    gap:10px;
+}
+
+.projectItem{
+    background-color: white;
+    height:400px;
+    width:300px;
+    padding:20px;
+    border:5px black solid;
+}
+
+.projectItem h1{
+    text-align: center;
+}
+
+.projectItem img{
+    height:200px;
+    width:300px;
+    margin: auto;
+}
+
+.projectItem div{
+    padding:5px;
+}
+
+@media(min-width:780px){
+    #projectBox{
+        grid-template-columns: auto auto auto;
+    }
+    #navBar{
+        flex-direction: row;
+    }
+    body{
+        font-size: 100%;
+    }
+}
+
+@media(max-width:768px){
+    #projectBox{
+        grid-template-columns: auto;
+    }
+    #navBar{
+        flex-direction: column;
+    }
+    body{
+        font-size: 125%;
+    }
+}
+
+#name{
+    background-color: greenyellow;
+    padding: 10px;
+    font-size: 35px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#navBar{
+    background-color: white;
+    display: flex;
+    height:auto;
+    justify-content: space-between;
+}
+
+.topBarItems{
+    padding: 20px;
+    font-size: 20px;
+    transition: transform .5s 0s ease;
+}
+
+.topBarItems:hover{
+    transform:scale(1.25);
+}

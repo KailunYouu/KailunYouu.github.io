@@ -11,6 +11,20 @@
     text-align: center;
 }
 
+#name{
+    background-color: greenyellow;
+    padding: 10px;
+    font-size: 35px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#navBar{
+    background-color: white;
+    display: flex;
+    height:auto;
+    justify-content: space-between;
+}
+
 td,th{
     border: 1px solid black;
     text-align: center;
@@ -26,16 +40,38 @@ table{
     justify-content: space-between;
 }
 
+.topBarItems{
+    padding: 20px;
+    font-size: 20px;
+    transition: transform .5s 0s ease;
+}
 
-/* In this case .body "won" because class selector has a bigger priority than element(100 > 10) */
+.topBarItems:hover{
+    transform:scale(1.25);
+}
+
 .body{
     background-color: black;
 }
 
-body{
-    background-color: lime;
-}
-
 h3{
     text-decoration: underline;
+}
+
+@media(min-width:780px){
+    #navBar{
+        flex-direction: row;
+    }
+    body{
+        font-size:100%;
+    }
+}
+
+@media(max-width:768px){
+    #navBar{
+        flex-direction: column;
+    }
+    body{
+        font-size: 125%;
+    }
 }

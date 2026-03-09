@@ -1,5 +1,5 @@
-1, The HTTP takes the first part of the URL before the / and request elements from that database, after that, the database accepts the request and returns the element.
+1,The difference between flex direction for row and column is that for row, the elements will spread from left to right while for column, it will spread top to down.
 
-2, Docker us used for backend software and storing databases where as Github Pages are mostly used for only frontend things like a resume page.
+2, using relative units can help easily change every text or other element by a certain amount instead of tediously inputting every new fixed px. (a one liner to convert from computer screen size to iphone screen size)
 
-3, AI was not used to write code
+3, no AI was used except google searches on how the css and other things worked.
